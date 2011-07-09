@@ -64,6 +64,7 @@ div.field, div.actions {
 #left{
   width:200px;
   float:left;
+  padding-right: 10px;
 }
 
 #main{
