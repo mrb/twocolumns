@@ -1,0 +1,19 @@
+<h1>Listing papers</h1>
+
+<% @papers.each do |paper| %>
+  <div>
+    <h3><%= paper.title %></h3>
+    <i>Url:</i><%= paper.url %><br/>
+    <i>Slug:</i><%= paper.slug %><br/>
+    <i>Abstract:</i><%= paper.abstract %><br/>
+    <i>Description:</i><%= paper.short %><br/>
+    <br/>
+    <b>Tags:</b><br/>
+    <%= paper.tag_list %><br/>
+    <br/>
+    <%= link_to 'E', edit_paper_path(paper) %>
+    <%= link_to 'X', paper, :confirm => 'Are you sure?', :method => :delete %>
+  </div>
+<% end %>
+
+
