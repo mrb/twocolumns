@@ -1,7 +1,7 @@
 body { background-color: #fff; color: #333; }
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: Times;
   font-size:   13px;
   line-height: 18px;
 }
@@ -53,4 +53,16 @@ div.field, div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+.paper{
+  border: 1px solid #999;
+  padding: 5px;
+  width:600px;
+}
+
+#main{
+  width:610px;
+  margin-left: auto;
+  margin-right: auto;
 }
