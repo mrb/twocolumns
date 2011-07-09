@@ -1,0 +1,15 @@
+Two Columns: The Definitive Source for Definitive Sources
+=========================================================
+
+A simple web app to allow for the storage and retrieval of academic papers that
+are freely available through various online sources.  The idea came about after
+a conversation with a colleage about how it's not easy to find these primary 
+sources indexed according to our interests, and usually remembering the titles
+and authors is a challenge when remembering concepts or keywords isn't.
+
+The modern web programming community has a lot to learn from the relatively
+young but exceedingly well researched and funded past of academic Computer 
+Science, and this knowledge should be made available to anyone with internet
+access. 
+
+Two columns is written in Rails 3, and is deployed on the Heroku Cedar stack.
