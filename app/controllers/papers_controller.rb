@@ -73,7 +73,7 @@ class PapersController < ApplicationController
   # DELETE /papers/1.xml
   def destroy
     @paper = Paper.find(params[:id])
-    @paper.destroy
+    #@paper.destroy
 
     respond_to do |format|
       format.html { redirect_to(papers_url) }
