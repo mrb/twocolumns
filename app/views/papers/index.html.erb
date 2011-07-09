@@ -1,5 +1,9 @@
+<div id="left">
+  <h2>Tags</h2>
+  <h3><%= tag_counts %></h3>
+</div>
 <div id="main">
-  <h1>Listing papers</h1>  
+  <h2>Papers</h1>  
   <% @papers.each do |paper| %>
     <div class='paper'>
       <h3><%= paper.title %> - <%= paper.authors %></h3>
