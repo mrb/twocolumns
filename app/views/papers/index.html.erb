@@ -3,7 +3,7 @@
   <% @papers.each do |paper| %>
     <div class='paper'>
       <h3><%= paper.title %> - <%= paper.authors %></h3>
-      <i>Url:</i><%= auto_link(paper.url) %><br/>
+      <i>Url:</i><%== auto_link(paper.url) %><br/>
       <i>Slug:</i><%= paper.slug %><br/>
       <i>Abstract:</i><%= paper.abstract %><br/>
       <i>Description:</i><%= paper.short %><br/>
