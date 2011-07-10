@@ -12,7 +12,7 @@ pre {
   font-size: 11px;
 }
 
-a { color: #000; }
+a { color: #000; text-decoration:none; }
 a:visited { color: #666; }
 a:hover { color: #fff; background-color:#000; }
 
@@ -71,3 +71,13 @@ div.field, div.actions {
   width:610px;
   float:left;
 }
+
+#top{
+  width:100%;
+  border-bottom: 1px solid #999;
+  padding-left:0;
+  padding-right:0;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+

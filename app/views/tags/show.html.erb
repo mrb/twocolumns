@@ -1,4 +1,5 @@
-<h2>All Papers</h2>
+<h2><%= link_to "Papers", papers_url %> tagged with <i><%= @tag.name %></i></h2>
+
 <% @papers.each do |paper| %>
   <%= render :partial => 'shared/paper', :locals => {:paper => paper} %>
 <% end %>
