@@ -13,12 +13,14 @@ class PapersController < ApplicationController
   # GET /papers/1
   # GET /papers/1.xml
   def show
-    @paper = Paper.find(params[:id])
+    @paper = Paper.find_by_slug_or_id(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @paper }
     end
+  rescue ActiveRecord::RecordNotFound
+    redirect_to papers_url
   end
 
   # GET /papers/new
