@@ -20,8 +20,6 @@ Two columns is written in Rails 3, and is deployed on the Heroku Cedar stack.
 TODO
 ====
 - Allow multiple tag selection/filtering
-- Get slug link working so that twocolumns can provide nice permalinks to
-  scholarly papers - i.e. twocolumns.org/fielding-rest or /raymond-cathedral
 - Decide if we need some kind of auth
 - Do some actual interface work (I wish the font could be Computer Modern)
 
