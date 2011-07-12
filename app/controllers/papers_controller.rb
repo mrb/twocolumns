@@ -19,8 +19,6 @@ class PapersController < ApplicationController
       format.html # show.html.erb
       format.xml  { render :xml => @paper }
     end
-  rescue ActiveRecord::RecordNotFound
-    redirect_to papers_url
   end
 
   # GET /papers/new
