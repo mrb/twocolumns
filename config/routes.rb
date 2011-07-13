@@ -1,4 +1,4 @@
-Twocolumns::Application.routes.draw do
+TwoColumns::Application.routes.draw do
   resources :papers
   resources :tags
   match "/:id" => "papers#show"
