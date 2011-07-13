@@ -2,6 +2,8 @@ class Paper < ActiveRecord::Base
   acts_as_taggable
   acts_as_taggable_on :tags
 
+  scope :recent, :order => "created_at DESC", :limit => 10
+
   def self.find_by_slug_or_id(attr)
     if slug = find_by_slug(attr)
       return slug

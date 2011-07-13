@@ -1,0 +1,14 @@
+@import "compass"
+@import "compass/layout"
+@import "compass/reset"
+@import "compass/css3/font-face"
+
+@include font-face("ComputerModernBold", font-files("cmunbx-webfont.woff", woff, "cmunbx-webfont.ttf", opentype), "cmunbx-webfont.eot")
+@include font-face("ComputerModern", font-files("cmunrm-webfont.woff", woff, "cmunrm-webfont.ttf", opentype), "cmunrm-webfont.eot")
+
+body
+  font-family: ComputerModern
+
+@import "headers"
+@import "layout"
+@import "papers"
