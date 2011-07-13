@@ -1,4 +1,5 @@
-%h3= link_to paper.title, paper_path(paper)
-%p.authors= paper.authors
-= simple_format truncate(paper.abstract, :length => 100), :class => "abstract"
-= link_to "PDF", paper.url, :class => "pdf"
+.paper
+  %h3= link_to paper.title, paper_path(paper)
+  %p.authors= paper.authors
+  = simple_format truncate(paper.abstract, :length => 200), :class => "abstract"
+  = link_to "PDF", paper.url, :class => "pdf"

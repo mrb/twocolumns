@@ -2,3 +2,8 @@
 
 - @papers.each do |p|
   = render p
+
+%footer
+  = link_to "All papers", papers_path
+  •
+  = link_to "Add a paper", new_paper_path
