@@ -22,4 +22,4 @@ TODO
 - Allow multiple tag selection/filtering
 - Decide if we need some kind of auth
 - Do some actual interface work (I wish the font could be Computer Modern)
-
+- Allow PDF->HTML conversion
